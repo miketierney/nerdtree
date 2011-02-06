@@ -152,7 +152,7 @@ if has("gui_macvim")
     let s:tree_markup_reg = '^[ `|▼▶]*[\-+~ ]*'
 else
     let s:tree_markup_reg = '^[ `|]*[\-+~]'
-end
+endif
 
 let s:tree_up_dir_line = '.. (up a dir)'
 
